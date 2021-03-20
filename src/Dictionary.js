@@ -1,12 +1,24 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Dictionary.css";
 
 
 export default function Dictionary () {
+let [result, setResult]=useState(null);
+function search (event) {
+    event.preventDefault();
+    alert("searching");
+}
+
+function handleResultChange (event) {
+    return (
+        setResult (event.target.value)
+    )
+}
+
     return (
         <div className="Dictionary">
-           <form>
-               <input type="search" placeholder="Search for anything..." />
+           <form onSubmit={search}>
+               <input type="search" autofocus= "on" placeholder="Search for anything..." onChange={handleResultChange} />
                <input type="submit" value="search" />
            </form>
         </div>
