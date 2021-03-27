@@ -16,7 +16,7 @@ export default function App() {
       </main>
       <footer className="text-center">
         <small>
-        Coded by Leigh Richards, open-sourced on<a href="https://github.com/Winifreddo/dictionary-app" target="blank"> gitHub</a>  
+        Coded by Leigh Richards, open-sourced on<a href="https://github.com/Winifreddo/dictionary-app" target="blank"> gitHub </a>  
      </small> 
      </footer>
     </div>

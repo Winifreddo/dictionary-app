@@ -1,6 +1,122 @@
-.logo {
+img {
+  background: #F4F7F7;
+  max-width: 20%;
     display: block;
-    text-align: center;
     margin: 0 auto;
+    margin-top: 17px;
+    margin-bottom: 15px;
   
 }
+.container {
+   background: #F4F7F7; 
+    border: solid 1px #F4F7F7;
+    border-radius: 5px;
+   
+}
+
+.Phonetic a {
+  color: #AC8747;
+  font-size: 26px;
+  font-weight: 900;
+}
+
+body {
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 65%;
+    
+    font-family: 'Montserrat', sans-serif;;
+    text-align: left;
+   
+  }
+
+  footer {
+    
+      font-weight: bold;
+      margin-bottom: 10px;
+    color: 	#dba445;
+  }
+
+  h2 {
+      font-size: 32px;
+      text-align: center;
+    font-weight: 800px;
+    color: #AC8747; 
+    margin-bottom: 13px;
+    
+  }
+
+  form {
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 2px;
+    padding: 5px, 8px;
+}
+
+h4 {
+  padding-top: 10px;
+  margin-left: 25px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #AC8747;
+}
+
+.Synonyms h4 {
+  margin-left: 2px;
+}
+
+
+  
+    .col-4 {
+        
+        height: 30px;
+        border: #F4F7F7 solid 1px ;
+        border-radius: 3px;
+        line-height: 1.5px;
+    }
+  
+.Phonetic img {
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  max-width: 4%;
+}
+
+    .AllPhonetic {
+
+      background: #974390; 
+      color: #ECC984;
+      border-radius: 90px;
+      display: block;
+      margin: 0 auto;
+      margin-top: -29px;
+      max-width: 20%;
+      padding: 10px;
+        text-align: center;
+        font-weight: bolder;
+       
+    }
+
+    .Meaning {
+      
+      padding-left: 25px;
+        color:#974390;
+        margin-top: 15px;
+        line-height: 27px;
+    }
+ 
+   p {
+     margin-left: 24px;
+   }
+
+    ul {
+        list-style: none;
+        margin-left: -25px;
+    }
+
+  
+  

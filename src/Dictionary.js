@@ -1,5 +1,4 @@
 import React, {useState} from "react";
-import "./Dictionary.css";
 import axios from "axios";
 import Results from "./Results";
 
@@ -28,10 +27,13 @@ function handleWordChange (event) {
 
     return (
         <div className="Dictionary">
-           <form onSubmit={search}>
-               <input type="search" autoFocus= "on" placeholder="Search for anything..." onChange={handleWordChange} />
-               <input type="submit" value="search" />
+            <div className="row mb-3">
+
+           <form  onSubmit={search}>
+               <input type="search" className= "col-4" placeholder="Search for anything..." onChange={handleWordChange} />
            </form>
+           
+           </div>
          <Results results={results} />
         </div>
     );
